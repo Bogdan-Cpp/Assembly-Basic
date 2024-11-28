@@ -1,5 +1,5 @@
 section .data
-    msg1 db "Salut", 0xA 
+    msg1 db "Salut! "
     len1 equ $ - msg1
     
     msg2 db "Programez in assembly", 0xA
